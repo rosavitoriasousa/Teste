@@ -1,0 +1,30 @@
+ public static void main(String[] args){   
+        int unidade;
+        int dezena;
+        int centena;
+        
+        System.out.println("Digite um número: ");
+        String[] uni = {"zero", "um", "dois"};
+        unidade = 2;
+        dezena = 2;
+        centena = 2;
+        String[][] matriz = {
+            {"0", "0", "0", "0"}, // 0
+            {"onze", "um", "dez", "cento"}, // 1
+            {"doze", "dois", "vinte", "duzentos"}, // 2
+            {"treze", "trez", "vinte", "duzentos"}, // 3
+            {"", "dois", "vinte", "duzentos"}, // 4
+            {"doze", "dois", "vinte", "duzentos"}, // 5
+            
+            Bloco de notas
+            Unidade: um, dois, três, quatro, cinco, seis sete, oito, nove;
+
+dezena: dez, onze, doze, treze, quatorze, quinze, dezeseis, dezesete, dezoito, dezenove, vinte + unidade,
+trinta + unidade, quarenta + unidade, cinquenta + unidade, sesenta + unidade, setenta + unidade, oitenta + unidade, noventa + unidade;
+
+Centena: cento, duzentos, trezentos, quatrocentos, quinhentos, seiscentos, setecentos, oitocentos, novecentos
+
+array  unidade()
+       dezena ()
+       centena()
+            
