@@ -5,49 +5,29 @@
  */
 package projeto;
 
+import java.util.Scanner;
+
 /**
  *
  * @author 2etimds
  */
-public class Projeto2 {
+public class Projeto1 {
     
-    public static void main(String[] args){
+    public static void main(String[] args){   
+        Scanner leitor = new Scanner(System.in);
+        String nuns = leitor.nextLine();
+        // 123
+        int unidade = Integer.parseInt(String.valueOf(nuns.charAt(0)));
+        System.out.println(unidade);
+        int dezena = Integer.parseInt(String.valueOf(nuns.charAt(1)));
+        System.out.println(dezena);
         
-    /* Unidade = um, dois, três, quatro, cinco, seis, sete, oito,
-    nove
-
-    Dezena = dez, vinte, trinta, quarenta, cinquenta, sessenta, setenta,
-    oitenta, noventa
-
-    Centena = cem, duzentos, trezentos, quatrocentos, quinhentos,
-    seiscentos, setecentos, oitcentos, novecentos
-
-    Outros = , onze, doze, treze, catorze, quinze, dezesseis, dezessete,
-    dezoito, dezenove
-
-    se o número digitado tiver um caracter, leia a unidade
-    mas se tiver dois caracteres, leia unidade e dezena ou outros
-    mas se tiver três caracteres, leia unidade, dezena e centena
-    se não valor inváliudo
-
-    int 1 = unidade
-    int 2 = dezena + unidade
-    int 3 = centena + dezena + unidade
-
-    Numéro digitado = num
-
-    if(num = 1){
-        escreva unidade
-    }
-    else if(num = 2){
-        escreva dezena e unidade
-    }
-    else if(num = 3){
-        escreva centena, dezena e unidade
-    }
-    else{
-        Valor inválido
-    } */
-        
+        String[] uni = {"zero", "um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove"};
+        String[] deze = {"dez", "onze", "doze", "treze", "catorze", "quinze", "dezesseis", "dezessete", 
+        "dezoito", "dezenove", "vinte", "trinta", "quarenta", "cinquenta", "sessenta", "setenta", "oitenta", "noventa"};
+        String[] cen = {"cento", "duzentos", "trezentos", "quatrocentos", "quinhentos", "seiscentos", "setecentos", "oitcentos", "novecentos"};
+        System.out.println("Número: " + uni[unidade]);
+         System.out.println("Número: " + deze[dezena]);
+       
     }
 }
