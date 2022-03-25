@@ -1,2 +1,2 @@
-# Teste
-Exercícios de JAVA
+# EXERCÍCIOS JAVA
+Integrantes Rogério, Sthephany e Rosa.
