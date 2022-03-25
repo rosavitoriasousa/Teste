@@ -21,4 +21,4 @@ System.out.println("Número: " + uni[unidade]);
 System.out.println("Número: " + deze[dezena]);
 System.out.println("Número: " + cen[centena]); 
 }
-}
+
