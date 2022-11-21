@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Alteração de Resgistros de Empregos</title>
+</head>
+<body>
+    <form name="" action="update.php" method="post">
+        <fieldset>
+            <div>
+                <label for="registro">Registro</label>
+                <input type="text" id="nome" name="txtRegistro" readonly value="1">
+            </div>
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="txtNome">
+            </div>
+            <div>
+                <label for="cargo">Cargo</label>
+                <select name="SltCargo" id="cargo">
+                    <option value=""></option>
+                </select>
+            </div>
+            <div>
+                <label for="area">Area</label>
+                <select name="SltArea" id="area">
+                    <option value=""></option>
+                </select>
+            </div>
+            <div>
+                <label>Status</label>
+                    <label>
+                        <input type="radio" name="rdbStatus" value="Ativo">Ativo
+                    </label>
+                    <label>
+                        <input type="radio" name="rdbStatus" value="Inativo">Desativado
+                    </label>
+            </div>
+            <button type="submit" name="submit">Alterar</button>
+        </fieldset>
+    </form>   
+</body>
+</html>
+<head>
